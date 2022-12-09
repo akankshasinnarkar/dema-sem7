@@ -12,7 +12,7 @@ function DefaultLayout(props) {
           label: (
             <li onClick={()=>{
                 localStorage.removeItem('dema-user')
-                navigate("/login");
+                navigate("/landing-page");
             }}>Logout</li>
           ),
         },
