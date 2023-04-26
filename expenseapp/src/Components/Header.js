@@ -31,7 +31,9 @@ const useStyles = makeStyles((theme) => ({
     fontSize: '2rem',
   },
   colorText: {
-    color: '#5AFF3D',
+    color: '#2F4F4F',
+    fontSize: 60 ,
+    
   },
   container: {
     textAlign: 'center',
@@ -41,9 +43,10 @@ const useStyles = makeStyles((theme) => ({
     fontSize: '4.5rem',
   },
   goDown: {
-    color: '#5AFF3D',
+    color: '#FFFFF0',
     fontSize: '4rem',
   },
+  
 }));
 export default function Header() {
   const classes = useStyles();
